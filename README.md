@@ -1,2 +1,4 @@
 # UART-Communication-Protocol-in-IoT
 UART Communication Protocol in IoT using Arduino Uno and LoRa Module
+
+The RYLR993 LoRa module was initially configured for wireless communication by sending specific AT commands as outlined in the module's datasheet. Using an Arduino, the module connected via UART Protocol(Start bit,stop bit), and communication was established at the default baud rate. The configuration process began by setting the frequency to 865MHz using the AT+MODE command, ensuring it operated within the designated frequency band for long-range communication. The AT+ADDRESS command was then used to assign a unique device address, followed by the AT+NETWORKID command to set the network ID for secure communication. After successful configuration, the module was tested to ensure that it could reliably transmit and receive data wirelessly over the desired range, confirming that the RYLR993 was correctly set up for efficient IoT communication.
